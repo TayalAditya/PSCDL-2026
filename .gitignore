@@ -1,0 +1,36 @@
+# Challenge data (Vehant, confidential) and public calibration sets
+*.zip
+*.mp4
+*.avi
+*.mov
+*.tar.gz
+PSCDL2026_Test/
+PSCDL_2026/
+strict_pipeline/input/
+
+# Generated outputs (the shipped masks live in submission/masks, tracked on purpose)
+output_masks/
+strict_pipeline/output/
+strict_pipeline/submission_package/
+strict_pipeline/smoke_video*/
+_test_out_*/
+_tmp_masks_*/
+
+# Local scratch: intermediate zips, server transfer scripts, preview frames
+_local/
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
